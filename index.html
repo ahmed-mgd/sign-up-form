@@ -14,11 +14,12 @@
         </div>
     </div>
     <div id="main">
-        <form action="#" method="post">
+        <h1>Let's get started!</h1>
+        <form action="index.html" method="post">
             <ul id="form-content">
                 <li>
                     <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first_name">
+                    <input type="text" id="first-name" name="first_name" minlength="1">
                 </li>
                 <li>
                     <label for="last-name">Last Name</label>
@@ -41,6 +42,8 @@
                     <input type="password" id="confirm-password" name="confirm_password">
                 </li>
             </ul>
+            <button id="submit-btn" type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </form>
     </div>
 </body>
