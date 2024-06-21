@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="side-content">
+        <div class="brand">
+            <img src="assets/odin-lined.png" alt="Odin Logo" id="odin-logo">
+            <h1>Odin</h1>
+        </div>
+    </div>
+    <div id="main">
+        <form action="#" method="post">
+            <ul id="form-content">
+                <li>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first_name">
+                </li>
+                <li>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last_name">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </li>
+                <li>
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phone" name="phone" pattern="\d{9}">
+                </li>
+                <li>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </li>
+                <li>
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm_password">
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>
