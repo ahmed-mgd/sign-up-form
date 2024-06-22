@@ -53,26 +53,41 @@ body {
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
   row-gap: 1rem;
-  width: 100%;
   padding: 0;
+  margin: 2rem auto;
 }
 
-li {
+form {
+  padding: 2rem 8rem;
+  margin: auto;
+  background-color: white;
+  box-shadow: 1rem 1rem;
+}
+
+form li {
   list-style: none;
   display: flex;
   flex-direction: column;
 }
 
-#main {
-  margin: auto;
+#form-content input {
+  border: 0.1rem solid black;
 }
 
-input:invalid {
+#main {
+  margin: auto;
+  width: 100%;
+}
+
+#invite-msg {
+  margin: 1rem 5rem;
+}
+
+form input:invalid {
   border: red;
 }
 
 #submit-btn {
-  margin: 1.5rem 0 0.3rem;
   font-size: large;
   background-color: goldenrod;
   color: white;
